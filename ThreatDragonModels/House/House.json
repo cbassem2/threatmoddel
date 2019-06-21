@@ -267,7 +267,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 2",
+                      "text": "Groceries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -332,7 +332,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 4",
+                      "text": "Groceries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -392,7 +392,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "Groceries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -409,12 +409,37 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 878,
+                "y": 240
+              },
+              "target": {
+                "x": 238,
+                "y": 270
+              },
+              "vertices": [
+                {
+                  "x": 744,
+                  "y": 357
+                },
+                {
+                  "x": 529,
+                  "y": 357
+                }
+              ],
+              "id": "0d6222d6-7d28-46c0-81e1-741954243bf7",
+              "z": 9,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 877
+          "width": 896.2554931640625
         }
       }
     ]
