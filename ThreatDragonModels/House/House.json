@@ -295,6 +295,7 @@
               "id": "6d417616-2c20-4ac4-859c-152a5c49b962",
               "z": 4,
               "hasOpenThreats": false,
+              "threats": [],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -410,21 +411,17 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 878,
-                "y": 240
+                "x": 642,
+                "y": 151
               },
               "target": {
-                "x": 238,
-                "y": 270
+                "x": 327,
+                "y": 438
               },
               "vertices": [
                 {
-                  "x": 744,
-                  "y": 357
-                },
-                {
-                  "x": 529,
-                  "y": 357
+                  "x": 606,
+                  "y": 304
                 }
               ],
               "id": "0d6222d6-7d28-46c0-81e1-741954243bf7",
