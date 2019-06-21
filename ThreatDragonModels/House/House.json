@@ -8,7 +8,189 @@
       {
         "title": "House - Level 1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 161,
+                "y": 158
+              },
+              "angle": 0,
+              "id": "93ee6d2b-94ad-443f-a657-7def59089432",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "House"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 131,
+                "y": 355
+              },
+              "angle": 0,
+              "id": "33073414-5792-4895-aa79-e876f67f6fe3",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Car"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 125,
+                "y": 1
+              },
+              "angle": 0,
+              "id": "86044d4b-707e-499c-a182-3e1c6f6f5afe",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Fridge"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "33073414-5792-4895-aa79-e876f67f6fe3"
+              },
+              "target": {
+                "id": "93ee6d2b-94ad-443f-a657-7def59089432"
+              },
+              "vertices": [],
+              "id": "9de9d602-e2e2-4080-969f-9d56229bdeb6",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5,
+                    "offset": -5
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Groceries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "93ee6d2b-94ad-443f-a657-7def59089432"
+              },
+              "target": {
+                "id": "86044d4b-707e-499c-a182-3e1c6f6f5afe"
+              },
+              "vertices": [],
+              "id": "ed919961-c787-4ebd-8b2d-1a8f223e7296",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Groceries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 405,
+                "y": 225
+              },
+              "target": {
+                "x": 27,
+                "y": 254
+              },
+              "vertices": [
+                {
+                  "x": 350,
+                  "y": 261
+                },
+                {
+                  "x": 184,
+                  "y": 287
+                }
+              ],
+              "id": "14e5146b-137c-4130-8c5d-15e2bc693930",
+              "z": 7,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 1954.9356689453125
+        }
       },
       {
         "title": "House - Level 2",
