@@ -239,7 +239,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Garage"
+                  "text": "Front door"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -411,17 +411,17 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 642,
-                "y": 151
+                "x": 882,
+                "y": 243
               },
               "target": {
-                "x": 327,
-                "y": 438
+                "x": 443,
+                "y": 372
               },
               "vertices": [
                 {
-                  "x": 606,
-                  "y": 304
+                  "x": 698,
+                  "y": 366
                 }
               ],
               "id": "0d6222d6-7d28-46c0-81e1-741954243bf7",
