@@ -434,6 +434,11 @@
           "height": 590,
           "width": 896.2554931640625
         }
+      },
+      {
+        "title": "Webserver",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 2
       }
     ]
   }
