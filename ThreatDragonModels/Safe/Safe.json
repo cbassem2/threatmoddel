@@ -6,7 +6,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "Level 2",
+        "title": "Level 1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -186,7 +186,7 @@
         }
       },
       {
-        "title": "Level 1",
+        "title": "Level 2",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 1
       }
