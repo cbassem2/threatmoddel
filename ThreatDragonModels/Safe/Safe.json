@@ -56,7 +56,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Remote"
+                  "text": "Remote\n(Raspberry Pi)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -116,44 +116,10 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Safe"
+                  "text": "Safe (Pine"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "0c9c1218-f904-4e43-a2a9-5a3b22ff2a9e"
-              },
-              "target": {
-                "id": "7860e947-ddb4-4d2a-8079-2e3d5b0664a9"
-              },
-              "vertices": [],
-              "id": "061280fe-15d2-4406-9e3c-fa235e931005",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "WiFi",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 5,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -177,6 +143,40 @@
               "id": "b4e7bcdd-2355-45fb-b187-659af2d1d2da",
               "z": 6,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0c9c1218-f904-4e43-a2a9-5a3b22ff2a9e"
+              },
+              "target": {
+                "id": "7860e947-ddb4-4d2a-8079-2e3d5b0664a9"
+              },
+              "vertices": [],
+              "id": "8bd10ca2-1eab-4b28-b26f-1cf631d7fdc3",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "WiFi",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
