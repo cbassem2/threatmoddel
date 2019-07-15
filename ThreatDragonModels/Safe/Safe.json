@@ -177,6 +177,40 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7860e947-ddb4-4d2a-8079-2e3d5b0664a9"
+              },
+              "target": {
+                "id": "0c9c1218-f904-4e43-a2a9-5a3b22ff2a9e"
+              },
+              "vertices": [],
+              "id": "69af7906-2321-43b3-b88a-c4fe20c3e861",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "WiFi",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
