@@ -105,7 +105,7 @@
               },
               "position": {
                 "x": 628,
-                "y": 149
+                "y": 152
               },
               "angle": 0,
               "id": "7860e947-ddb4-4d2a-8079-2e3d5b0664a9",
@@ -116,7 +116,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Safe (Pine"
+                  "text": "Safe (Pine)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
