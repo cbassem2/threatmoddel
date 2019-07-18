@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 380,
-                "y": 150
+                "x": 331,
+                "y": 151
               },
               "angle": 0,
               "id": "0c9c1218-f904-4e43-a2a9-5a3b22ff2a9e",
@@ -79,7 +79,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Pinpad",
+                      "text": "PIN pad",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -131,8 +131,8 @@
                 "y": 90
               },
               "target": {
-                "x": 635,
-                "y": 298
+                "x": 577,
+                "y": 421
               },
               "vertices": [
                 {
@@ -202,6 +202,66 @@
                 }
               ],
               "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 605,
+                "y": 325
+              },
+              "angle": 0,
+              "id": "c882b551-d72c-4c93-943e-4c6350fbf419",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Administrator"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c882b551-d72c-4c93-943e-4c6350fbf419"
+              },
+              "target": {
+                "id": "7860e947-ddb4-4d2a-8079-2e3d5b0664a9"
+              },
+              "vertices": [],
+              "id": "992f9bf2-406f-4424-87bf-f742f4f5fb03",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Serial interface",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
